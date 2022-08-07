@@ -10,7 +10,7 @@ Use the rest of your knowledge to achieve the expected result, but do not hesita
 
 __End product Should look something like this:__
 
-![Final Product](./img/dashboard-project.png "Guideline")
+![Final Product](./img/dashboard-project-%20Original.png "Guideline")
 
 -----
 
