@@ -68,7 +68,7 @@ a,a:visited{
 
 }
 
-img{
+a>img{
     width: 1.2em;
     padding-right: 0.5em;
 }
