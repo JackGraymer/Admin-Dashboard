@@ -213,7 +213,13 @@ grid-template-rows: 1fr 1fr;
     grid-template-columns: 3fr 1fr;
 }
 
-.projects{
+.projects>h2{
+    padding: 0 1em;
+    margin: 0;
+    margin-top: 1em;
+}
+
+.cards{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1em;
@@ -228,13 +234,15 @@ grid-template-rows: 1fr 1fr;
     border-radius: 1em;
     padding: 0.5em;
     overflow: hidden;
+    box-shadow: 0 0.2em 0.5em 0 rgb(109, 109, 109);
 }
 
 .cardText{
     padding: 5%;
     padding-top: 0;
     padding-left: 5%;
-    overflow: scroll;
+    overflow:hidden;
+
 }
 
 .cardIcons{
