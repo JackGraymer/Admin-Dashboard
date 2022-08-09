@@ -158,6 +158,7 @@ grid-template-rows: 1fr 1fr;
 .user-greet{
     display: grid;
     grid-template-columns: 2fr 7fr;
+    align-self: center;
 }
 
 .greeting{
@@ -207,6 +208,58 @@ grid-template-rows: 1fr 1fr;
 }
 
 .main{
-background-color: rgb(215, 229, 238);
+    background-color: rgb(215, 229, 238);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+    gap: 1em;
+}
+
+.card{
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.932);
+    grid-template-rows: 1fr 20%;
+    border-left: 1em solid rgb(25, 146, 212);
+    border-radius: 1em;
+    padding: 0.5em;
+    overflow: hidden;
+}
+
+.cardText{
+    padding: 5%;
+    padding-top: 0;
+    padding-left: 5%;
+    overflow: scroll;
+}
+
+.cardIcons{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 15% 15% 15%;
+    justify-content: end;
+    gap: 1em;
+}
+
+.cardIcons>a{
+    width: 2em;
+    height: 2em;
+    margin: 0;
+}
+
+.cardIcons>a>img{
+    width: 1.5em;
+    padding: 0;
+}
+
+.right{
+    min-width: 300px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 1em;
+    gap: 1em;
+}
