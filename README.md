@@ -12,6 +12,11 @@ __End product Should look something like this:__
 
 ![Final Product](./img/dashboard-project-%20Original.png "Guideline")
 
+
+__And the Final Product looks like this:__
+
+![Final Product](./img/previewFinal.png "Page Preview")
+
 -----
 
 ## Assignment
