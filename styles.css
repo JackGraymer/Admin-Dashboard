@@ -25,15 +25,21 @@ body{
     box-shadow: 0 0 15px rgba(123, 162, 197, 0.753);
 }
 
-div{
+/* div{
     border: 1pt solid red;
-}
+} */
 
 .dashboard{
+    display: grid;
+    align-content: space-between;
     background-color: rgb(25, 146, 212);
     color: aliceblue;
     min-width: 300px;
 }
+
+.dashboardMenu{
+}
+
 h1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -75,6 +81,30 @@ a,a:visited{
 a>img{
     width: 1.2em;
     padding-right: 0.5em;
+}
+
+.contactDetails{
+    align-self: flex-end;
+    display: flex;
+    padding: 1em;
+}
+
+#github{
+    display: grid;
+    height: fit-content;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 3pt;
+}
+
+#githubLink{
+    padding: 0;
+    margin: 0;
+}
+
+#githubImg{
+    width: 2em;
 }
 
 .center{
@@ -213,10 +243,17 @@ grid-template-rows: 1fr 1fr;
     grid-template-columns: 3fr 1fr;
 }
 
+.projects{
+    display: grid;
+    grid-template-rows: 0.55fr auto;
+}
+
 .projects>h2{
+    box-sizing: border-box;
     padding: 0 1em;
     margin: 0;
     margin-top: 1em;
+    padding-bottom: 0;
 }
 
 .cards{
@@ -232,8 +269,7 @@ grid-template-rows: 1fr 1fr;
     grid-template-rows: 1fr 20%;
     border-left: 1em solid rgb(25, 146, 212);
     border-radius: 1em;
-    padding: 0.5em;
-    overflow: hidden;
+    padding: 0.5em;    
     box-shadow: 0 0.2em 0.5em 0 rgb(109, 109, 109);
 }
 
@@ -267,7 +303,77 @@ grid-template-rows: 1fr 1fr;
 .right{
     min-width: 300px;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     padding: 1em;
+    padding-top: 0;
+}
+
+.right>h2{
+    padding: 0 0em;
+    margin: 0;
+}
+
+.rightBlockContent{
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.932);
+    border-radius: 1em;
+    padding: 0.5em;
+    padding-bottom: 1em;
+    box-shadow: 0 0.2em 0.5em 0 rgb(109, 109, 109);
+}
+
+.notices{
+    padding-top: 1em;
+    display: grid;
     gap: 1em;
+}
+
+.announcement{
+    padding: 0 1em;
+}
+
+.announcement>h4{
+    padding: 0;
+    margin: 0;
+}
+
+.announcement>p{
+    font-size: small;
+    padding-bottom: 1em;
+    border-bottom: solid 1pt grey;
+}
+
+.notices{
+
+}
+
+.profileRight{
+
+}
+
+.comment{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+.comment>.quote{
+    align-items: center;
+    align-self: center;
+}
+
+.quote>h5{
+    margin:0;
+    padding:0;
+    
+}
+
+.quote>h6{
+    margin:0;
+    padding-top: 0.5em;
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+.comment.user{
+
 }
